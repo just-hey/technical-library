@@ -4,14 +4,12 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const port = process.env.PORT || 3000
 const bookRoutes = require('./src/routes/books')
-const authorRoutes = require('./src/routes/authors')
 
 app.disable('x-powered-by')
 app.use(morgan('dev'))
 app.use(bodyParser.json())
 
 app.use('/books', bookRoutes)
-app.use('/authors', authorRoutes)
 
 app.use((err, req, res, next) => {
   const status = err.status || 500

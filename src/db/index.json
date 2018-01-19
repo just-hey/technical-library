@@ -1,0 +1,56 @@
+[
+  {
+    "id": "040f873d-df27-4f5c-8161-25ac0357ea35",
+    "name": "A Tale",
+    "borrowed": true,
+    "description": "This is for sure a book about some story... I promise.",
+    "authors": [
+      {
+        "id": "14fb9197-c0f0-493f-a860-02f8902327e9",
+        "firstName": "Eric",
+        "lastName": "Fish"
+      },
+      {
+        "id": "b373072c-80df-4fae-8cfd-e8cfb07a0498",
+        "firstName": "Monty",
+        "lastName": "Snek"
+      }
+    ]
+  },
+  {
+    "id": "b373072c-80df-4fae-8cfd-e8cfb07a0498",
+    "name": "Fable",
+    "borrowed": false,
+    "description": "This is for real a fable about some characters... maybe.",
+    "authors": [
+      {
+        "id": "7ec6b8e9-e8c8-42ee-b53a-3be502ae1f79",
+        "firstName": "Daniel",
+        "lastName": "Harrison"
+      }
+    ]
+  },
+  {
+    "id": "b373072c-80df-4fae-8cfd-e8cfb07a0498",
+    "name": "Booky Book",
+    "borrowed": false,
+    "description": "This is a book that has pages!",
+    "authors": [
+      {
+        "id": "5df0f463-75ee-449c-a9ab-f1829b9ccedf",
+        "firstName": "Cassandra",
+        "lastName": "Torrances"
+      },
+      {
+        "id": "8ee2b017-8988-439f-b38a-267d85a8678f",
+        "firstName": "Bob",
+        "lastName": "Burger"
+      },
+      {
+        "id": "500a7390-db23-47e4-b625-1f9416704e3d",
+        "firstName": "George",
+        "lastName": "Washington"
+      }
+    ]
+  }
+]
