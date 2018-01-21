@@ -16,11 +16,11 @@ router.post('/', ctrl.create)
 router.post('/:id/authors', ctrl.createAuthors)
 //done
 router.put('/:id', ctrl.update)
-//
+//done
 router.put('/:id/authors/:aid', ctrl.updateAuthor)
 //done
 router.delete('/:id', ctrl.destroy)
-//
-router.delete('/id/authors/:aid', ctrl.destroyAuthor)
+//done
+router.delete('/:id/authors/:aid', ctrl.destroyAuthor)
 
 module.exports = router
